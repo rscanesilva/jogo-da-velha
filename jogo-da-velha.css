@@ -1,0 +1,29 @@
+body {
+    background:transparent;
+	border:0;
+	margin:0;
+	outline:0;
+	padding:0;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    gap: 10px;
+    background-color: #ffffff;
+    text-align: center;
+}
+  
+.grid-container > div {
+    background-color: rgba(97, 146, 209, 0.8);
+    text-align: center;
+    font-size: 28vh;
+    color: white;
+    height: 32vh;
+    vertical-align: middle;
+    font-weight: bold;
+}
+
+.grid-container > div:hover {
+    background-color: rgba(32, 109, 211, 0.8);
+}
